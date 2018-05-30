@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 var dirName = process.argv[2];
-fs.exists('dirName',function(a){
+fs.exists(dirName,function(a){
     if(a){
         process.exit(0);
     }else{
